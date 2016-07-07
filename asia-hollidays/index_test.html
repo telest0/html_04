@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Test html</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		
+		.fon {
+			width: 650px; /* ширина трех блоков */
+			background: url(img/column.png) repeat-y; /* фоновая картинка. повторяется по вертикали */
+			float: left; /* чтобы не добавлять div с style="clear:both;" (не всегда уместно это применять) */
+		}
+		.leftColumn {
+			width: 200px;
+			float: left;
+		}
+		.centerColumn {
+			width: 200px;
+			float: left;
+		}
+		.rightColumn {
+			width: 250px;
+			float: left;
+		}
+    </style>
+</head>
+<body>
+<div class="fon"> <!-- блок-родитель с фоновой картинкой -->
+	<div class="leftColumn">
+	...текст...<br>
+	...текст...<br>
+	...текст...
+	</div>
+	<div class="centerColumn">
+	...текст...
+	</div>
+	<div class="rightColumn">
+	...текст...
+	</div>
+</div>
+
+
+</body>
+</html>

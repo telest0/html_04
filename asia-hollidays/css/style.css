@@ -1,0 +1,138 @@
+body {
+	background-image: url('../img/background.png');
+	background-size: cover;
+}
+.main-container {
+	margin: 0 auto;
+/*	height: 940px; */
+	width: 1017px;
+	background-color: white;
+	box-shadow: 0 0 15px 2px;
+/*	position: relative;
+	overflow: hidden;
+*/
+}
+/* ========HEADER==========================*/
+.logo {
+	margin-top: 16px;
+	height: 226px;
+	position: relative;
+}
+.logo img {
+	width: 34%;
+	margin: 25px 0 0 20px;
+	float: left;
+}
+.contacts {
+	margin: 20px 40px 0 0;
+	float: right;
+	color: #5fa5bb;
+	line-height: 10px;
+	font-family: Tahoma;
+}
+.collections-country {
+	position: absolute;
+	right: 40px;
+	bottom: 0;
+	float: right;
+}
+.collection-item {
+	float: left; 
+}
+
+.collection-item a {
+	display: block;
+    position: relative; /* чтобы дочерние элементы позиционировались относительно границ ссылки-контейнера */
+    padding: 68px 0px 12px 10px; /* позиционируем текст внутренними отступами */
+    width: 60px;
+    color: #298db2;
+    text-align: center;
+    font-size: 10px;
+    text-decoration: none; 
+}
+.collection-item a:hover {
+    color: #cae0e5;
+}
+.collection-item a img {
+    position: absolute; /* фото и скругленние углов позиционируется абсолютно, чтобы не влиять на положение текста */
+   	top: 0;
+   	left: 0;
+   	width: 42px;
+}
+.logo:after {
+	content: '';
+	clear: both;
+}
+.photo {
+	margin-bottom: -4px;
+}
+.photo img {
+	width: 100%;
+}
+/* ========/ HEADER==========================*/
+
+/* ========NAVIGATION==========================*/
+
+.menu {
+	height: 29px;
+	background-color: #323232;
+	box-shadow: 0 2px 3px 1px black; 
+}
+.menu ul {
+	margin: 0 0;
+}
+.menu ul li{
+	margin-right: 15px;
+    list-style: none;
+    float: left;
+    position: relative;
+}
+.menu ul li a {
+	padding: 0 20px;
+	display: block;
+	text-decoration: none;
+	color: white;
+	height: 29px;
+	line-height: 29px;
+}
+/* .menu ul li a:hover {
+	color: #66f;
+*/
+.dropdown {
+	margin-top: 2px;
+	position: absolute;
+	top: 100%;
+	padding: 0 0;
+	width: 180px;
+	background-color: #323232;
+	color: white;
+	display: none;
+}
+.menu li:hover .dropdown {
+	display: block;
+}
+.dropdown li{
+	width: 100%
+}
+/* ======== END NAVIGATION==========================*/
+/* ========SIDEBAR==========================*/
+.fon {
+	width: 1017px;
+	background: url('../img/column.png') ;
+	float: left;
+}
+.leftColumn{
+	float:left;
+	width: 218px;
+	text-align: center;
+}
+.centerColumn{
+	float:left;
+	width: 581px;
+	text-align: center;
+}
+.rightColumn{
+	float:left;
+	width: 210px;
+	text-align: center;
+}
